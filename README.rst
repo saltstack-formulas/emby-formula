@@ -13,10 +13,10 @@ Available states
 .. contents::
     :local:
 
-``emby.server``
----------------
+``emby``
+--------
 
-Installs the Emby Server.
+Installs the Emby Server. Includes ``emby.repo``.
 
 ``emby.repo``
 -------------
