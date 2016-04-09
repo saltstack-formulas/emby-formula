@@ -1,0 +1,3 @@
+emby:
+  # set to emby-server-beta or emby-server-dev for Beta or Dev channel
+  lookup: emby-server

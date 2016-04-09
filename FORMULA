@@ -1,0 +1,8 @@
+name: emby
+os: CentOS, Fedora
+os_family: RedHat
+version: 201604
+release: 1
+dependencies: epel
+summary: Formula for installing Emby Server
+description: Formula for installing Emby Server

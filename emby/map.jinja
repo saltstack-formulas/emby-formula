@@ -1,0 +1,2 @@
+{% import_yaml 'emby/defaults.yaml' as default_settings %}
+{% set emby = salt['pillar.get']('emby', default=default_settings.get('emby'), merge=True) %}

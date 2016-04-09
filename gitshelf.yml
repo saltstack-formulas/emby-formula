@@ -1,0 +1,5 @@
+books:
+  - book: "srv/formulas/epel"
+    git: "https://github.com/saltstack-formulas/epel-formula.git"
+  - book: "srv/salt/epel"
+    link: "../formulas/epel/epel"
