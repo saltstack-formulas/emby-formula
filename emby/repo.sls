@@ -1,4 +1,4 @@
-{% set baseurl = 'http://download.opensuse.org/repositories/home:/emby/' + salt['grains.get']('os') + '_' + salt['grains.get']('osmajorrelease') + '/' %}
+{% set baseurl = 'http://download.opensuse.org/repositories/home:/emby/' + salt['grains.get']('os') + '_$releasever/' %}
 {% set gpgkey = baseurl + 'repodata/repomd.xml.key' %}
 
 emby-repo:
