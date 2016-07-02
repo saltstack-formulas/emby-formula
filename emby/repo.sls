@@ -12,5 +12,5 @@ emby-repo:
 
 emby-repo-key:
   cmd.run:
-    - name:  rpm --import {{ gpgkey }}
+    - name:  rpm --import {{ gpgkey|replace('$releasever', salt['grains.get']('osmajorrelease')) }}
     - unless: rpm -qi gpg-pubkey-2a7d8a28
