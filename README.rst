@@ -2,8 +2,8 @@
 emby-formula
 ============
 
-.. image:: https://travis-ci.org/corux/emby-formula.svg?branch=master
-    :target: https://travis-ci.org/corux/emby-formula
+.. image:: https://travis-ci.org/saltstack-formulas/emby-formula.svg?branch=master
+    :target: https://travis-ci.org/saltstack-formulas/emby-formula
 
 Installs the Emby Server.
 
